@@ -11,7 +11,7 @@ def main():
     # This function checks if your guess is right
 
     # input
-    guess_number = int(input("Enter a number as your guess (1-9): "))
+    guess_number = int(input("Enter a number as your guess (0-9): "))
 
     # process & output
     if guess_number == constants.ANSWER:
